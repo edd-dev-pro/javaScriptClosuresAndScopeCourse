@@ -76,3 +76,6 @@ anotherFunctionTwo()
 // => 7
 // => 8
 // => 9
+
+// Con let, como saben, no se puede sobreescribir la variable, y tenemos un “let” diferente por cada iteración (Imaginen que cada iteración es un bloque de código totalmente diferente), 
+// entonces, cada setTimeout agarra el “let” que está dentro de su propio bloque de código, y como es único gracias al scope, ahí si que se imprimen del 1 al 9:D!

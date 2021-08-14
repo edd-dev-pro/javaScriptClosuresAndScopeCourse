@@ -19,5 +19,5 @@ const moneyBox = () => {
 let myMoneyBox = moneyBox()
 
 myMoneyBox(4) //4
-myMoneyBox(6) //6
+myMoneyBox(6) //10
 myMoneyBox(10) //20
