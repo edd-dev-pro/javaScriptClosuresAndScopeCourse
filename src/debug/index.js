@@ -22,6 +22,3 @@ const moneyBox = () => {
 
 let myMoneyBox = moneyBox()
 
-myMoneyBox(4) 
-myMoneyBox(6) 
-myMoneyBox(10) 
